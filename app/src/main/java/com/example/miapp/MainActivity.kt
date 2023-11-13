@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intento)
         }
         buttonListas.setOnClickListener {
-            val intentox= Intent(this,ListasActivity::class.java)
+            val intentox= Intent(this,MapsActivity::class.java)
             startActivity(intentox)
 
         }

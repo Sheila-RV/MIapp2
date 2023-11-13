@@ -15,11 +15,17 @@
         tools:layout_editor_absoluteX="196dp"
         tools:layout_editor_absoluteY="321dp" />
 
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="match_parent"
-        android:layout_height="573dp"
-        app:srcCompat="@drawable/pel1" />
+        android:layout_height="531dp"
+        app:srcCompat="@drawable/logodiary" />
 
 
 
@@ -33,7 +39,7 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="Button 1" />
+            android:text="Anterior" />
 
         <Button
             android:id="@+id/button5"
@@ -61,6 +67,12 @@
             android:layout_height="wrap_content"
             android:text="Button 3" />
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
 
 
 </LinearLayout>
